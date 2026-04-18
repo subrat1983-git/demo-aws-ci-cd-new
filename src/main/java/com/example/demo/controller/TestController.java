@@ -19,6 +19,10 @@ public class TestController {
         return "Hello Techie , AWS CICD Example working fine !";
     }
 
+    @GetMapping("/again")
+    public String again() {
+        return "Hello Techie , AWS CICD Example working fine !";
+    }
 
 
 
