@@ -25,9 +25,9 @@ public class TestController {
     }
 
 
-    @GetMapping("/again-test")
+  /*  @GetMapping("/again-test")
     public String againTest() {
         return "Hello Techie , AWS CICD Example working fine !";
-    }
+    }*/
 
 }
