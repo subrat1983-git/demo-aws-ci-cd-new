@@ -14,7 +14,7 @@ public class TestController {
     }
 
 
-    /*@GetMapping("/welcome-again")
+    @GetMapping("/welcome-again")
     public String greetingsAgain() {
         return "Hello Techie , AWS CICD Example working fine !";
     }
@@ -28,6 +28,6 @@ public class TestController {
     @GetMapping("/again-test")
     public String againTest() {
         return "Hello Techie , AWS CICD Example working fine !";
-    }*/
+    }
 
 }
