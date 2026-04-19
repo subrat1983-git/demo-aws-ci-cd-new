@@ -30,4 +30,9 @@ public class TestController {
         return "Hello Techie , AWS CICD Example working fine !";
     }
 
+    @GetMapping("/subrat-test")
+    public String subratTest() {
+        return "Hello Techie , AWS CICD Example working fine !";
+    }
+
 }
